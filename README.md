@@ -74,6 +74,8 @@ The `/pdf` folder contains a .pdf and .html copy of the `/main.ipynb` file.
 
 -   Make sure web scraper is well-configured to update the dataset at the push of a button.
 
+- Some plots haven't been saved to `/plots` -- rectify this.
+
 ---
 
 ### Documentation:
