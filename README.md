@@ -44,6 +44,24 @@ _[MIT License](https://github.com/andrewblais/spaceTechAnalysis/blob/main/LICENS
 
 ---
 
+Project structure:
+
+The main part of this project is found in the project directory's `/main.ipynb` file.
+
+The primary data file source, `/mission_launches.csv`, which is based on Angela's original file, has been updated by my scraping script with Selenium.
+
+A blank template of the project, from Angela Yu's course is also in the project directory: `/main_original_project_start.ipynb`. This file can be used to compare which questions/code/notes are hers and which parts of the project are my code.
+
+The project directory's sub-folder `/scrapeStuff` contains the code I wrote to scrape the web and update the .csv data files, which are used in the `.ipynb` script to create the DataFrame. It also contains all the secondary/old data files.
+
+The `/plots` folder contains .PNGs of all the plots from `/main.ipynb`.
+
+The `/pdf` folder contains a .pdf and .html copy of the `/main.ipynb` file.
+
+`/static` contains an image file used in Angela's template.
+
+---
+
 ### Future Updates
 
 -   Investigate using `datetime.timedelta`, as indicated in Angela's instructions.
