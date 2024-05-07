@@ -1,7 +1,5 @@
 # spaceTechAnalysis
 
-## ASSIGNMENT IN PROGRESS!!
-
 A Python Jupyter Notebook project whose structure was created by Angela Yu and which I completed for Professional Portfolio Project: Assignment 18: [Angela Yu 100 Days of Code](https://www.udemy.com/course/100-days-of-code/) -- "Data Science: Analyse and Visualise the Space Race".
 
 This is the penultimate project in Angela Yu's 100 Day's course. Since the most recent .csv data file was aggregated in 2020, I decided to scrape the source site's more recent info on space launches. I used Selenium for this task.
