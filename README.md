@@ -4,91 +4,21 @@ A Python Jupyter Notebook project whose structure was created by Angela Yu and w
 
 This is the penultimate project in Angela Yu's 100 Day's course. Since the most recent .csv data file was aggregated in 2020, I decided to scrape the source site's more recent info on space launches. I used Selenium for this task.
 
-Completing this project involved Web Scraping with Selenium, Data Science, Plotting and Analysis with Python NumPy, Pandas, Matplotlib, Plotly Express and Seaborn libraries.
-
-This was possibly the most strenuous project from Angela's course yet. I struggled a bit with the more advanced Pandas DataFrame operations and some fine-tuning of plotting techniques, so I referred a lot to earlier lessons from
-
--   [Angela's course](https://www.udemy.com/course/100-days-of-code/)
-
-as well as:
-
--   Mike X. Cohen's [Python-Math course](https://www.udemy.com/course/math-with-python/).
-
--   [Stack Overflow](https://stackoverflow.com/)
-
-Also helpful were:
-
--   [W3Schools](https://www.w3schools.com/)
-
--   [GeeksforGeeks](https://www.geeksforgeeks.org/)
-
--   [ChatGPT](https://chatgpt.com/)
-
-### Main Resources Utilized
-
--   [Python](https://www.python.org/)
-
--   [NumPy](https://numpy.org/)
-
--   [Pandas](https://pandas.pydata.org/)
-
--   [Matplotlib](https://matplotlib.org/)
-
--   [Plotly](https://plotly.com/python/)
-
--   [Seaborn](https://seaborn.pydata.org/)
-
 _[MIT License](https://github.com/andrewblais/spaceTechAnalysis/blob/main/LICENSE): Copyright (c) 2024- Andrew Blais_
 
 ---
 
 Project structure:
 
-The main part of this project is found in the project directory's `/main.ipynb` file.
-
-The primary data file source, `/mission_launches.csv`, which is based on Angela's original file, has been updated by my scraping script with Selenium.
-
-A blank template of the project, from Angela Yu's course is also in the project directory: `/main_original_project_start.ipynb`. This file can be used to compare which questions/code/notes are hers and which parts of the project are my code.
-
-The project directory's sub-folder `/scrapeStuff` contains the code I wrote to scrape the web and update the .csv data files, which are used in the `.ipynb` script to create the DataFrame. It also contains all the secondary/old data files.
-
-The `/plots` folder contains .PNGs of all the plots from `/main.ipynb`.
-
-The `/pdf` folder contains a .pdf and .html copy of the `/main.ipynb` file.
-
-`/static` contains an image file used in Angela's template.
-
 ---
 
 ### Future Updates
-
--   Investigate using `datetime.timedelta`, as indicated in Angela's instructions.
-
--   Further study and understanding of more advanced NumPy functions so I don't have to rely so heavily on outside information to complete data cleaning, transformation and analysis. This will hopefully result in more competent, compact and fluid code.
-
--   Investigate integrating other datasets into the analysis, e.g. military space data, commercial aviation data and beyond...
-
--   Consider other graphing and data analysis libraries.
-
--   I followed the directions too closely on the final challenge and limited the data analysis on that plot to 2020. Since I've updated the data to 2024, reflect this in the .ipynb file.
-
--   Make sure web scraper is well-configured to update the dataset at the push of a button.
-
-- Some plots haven't been saved to `/plots` -- rectify this.
 
 ---
 
 ### Documentation:
 
 ```requirements
-beautifulsoup4>=4.12.3
-matplotlib>=3.8.4
-numpy>=1.26.4
-pandas>=2.2.2
-plotly>=5.22.0
-seaborn>=0.13.2
-selenium>=4.20.0
-webdriver-manager>=4.0.1
 ```
 
 ---
